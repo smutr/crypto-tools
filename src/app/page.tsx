@@ -181,7 +181,7 @@ export default function HomePage() {
           </p>
           <div className="mt-4">
             <a
-              href="buymeacoffee.com/igorsamutil"
+              href="https://www.buymeacoffee.com/igorsamutil"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-6 py-2 bg-yellow-500 text-black font-bold rounded-lg hover:bg-yellow-600 transition"
