@@ -62,9 +62,22 @@ export default function HomePage() {
                   fill="currentColor"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" strokeWidth="2"/>
-                  <path d="M 20 32 L 32 20 L 44 32 M 20 32 L 32 44 L 44 32" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
-                  <circle cx="32" cy="32" r="4" fill="currentColor"/>
+                  <circle
+                    cx="32"
+                    cy="32"
+                    r="30"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  />
+                  <path
+                    d="M 20 32 L 32 20 L 44 32 M 20 32 L 32 44 L 44 32"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                  />
+                  <circle cx="32" cy="32" r="4" fill="currentColor" />
                 </svg>
               </div>
 
@@ -157,6 +170,7 @@ export default function HomePage() {
       </main>
 
       {/* ПОДВАЛ */}
+      {/* ПОДВАЛ */}
       <footer className="w-full py-6 px-4 bg-black/60 border-t-2 border-green-500/50 mt-auto relative z-10 backdrop-blur-sm">
         <div className="max-w-4xl mx-auto text-center">
           <p className="font-mono text-green-400 text-sm">
@@ -165,6 +179,16 @@ export default function HomePage() {
           <p className="font-mono text-cyan-400/50 text-xs mt-2">
             [ СИСТЕМА АКТИВНА ]
           </p>
+          <div className="mt-4">
+            <a
+              href="https://buymeacoffee.com/smuta"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-6 py-2 bg-yellow-500 text-black font-bold rounded-lg hover:bg-yellow-600 transition"
+            >
+              ☕ Support Me
+            </a>
+          </div>
         </div>
       </footer>
     </div>
