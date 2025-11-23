@@ -1,5 +1,3 @@
-
-
 "use client";
 import Link from "next/link";
 
@@ -8,10 +6,14 @@ export default function HomePage() {
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 flex flex-col relative overflow-hidden">
       {/* ФОНОВАЯ СЕТКА */}
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute inset-0" style={{
-          backgroundImage: 'linear-gradient(0deg, transparent 24%, rgba(34, 197, 94, 0.1) 25%, rgba(34, 197, 94, 0.1) 26%, transparent 27%, transparent 74%, rgba(34, 197, 94, 0.1) 75%, rgba(34, 197, 94, 0.1) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(34, 197, 94, 0.1) 25%, rgba(34, 197, 94, 0.1) 26%, transparent 27%, transparent 74%, rgba(34, 197, 94, 0.1) 75%, rgba(34, 197, 94, 0.1) 76%, transparent 77%, transparent)',
-          backgroundSize: '50px 50px'
-        }}></div>
+        <div
+          className="absolute inset-0"
+          style={{
+            backgroundImage:
+              "linear-gradient(0deg, transparent 24%, rgba(34, 197, 94, 0.1) 25%, rgba(34, 197, 94, 0.1) 26%, transparent 27%, transparent 74%, rgba(34, 197, 94, 0.1) 75%, rgba(34, 197, 94, 0.1) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(34, 197, 94, 0.1) 25%, rgba(34, 197, 94, 0.1) 26%, transparent 27%, transparent 74%, rgba(34, 197, 94, 0.1) 75%, rgba(34, 197, 94, 0.1) 76%, transparent 77%, transparent)",
+            backgroundSize: "50px 50px",
+          }}
+        ></div>
       </div>
 
       {/* ДЕКОРАТИВНЫЕ УГЛЫ */}
@@ -53,7 +55,13 @@ export default function HomePage() {
 
               {/* ИКОНКА */}
               <div className="text-6xl mb-4 text-cyan-400 relative z-10">
-                <svg width="64" height="64" viewBox="0 0 64 64" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <svg
+                  width="64"
+                  height="64"
+                  viewBox="0 0 64 64"
+                  fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
                   <circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" strokeWidth="2"/>
                   <path d="M 20 32 L 32 20 L 44 32 M 20 32 L 32 44 L 44 32" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
                   <circle cx="32" cy="32" r="4" fill="currentColor"/>
@@ -64,7 +72,8 @@ export default function HomePage() {
                 💱 КОНВЕРТЕР
               </h2>
               <p className="font-mono text-cyan-400 text-sm leading-relaxed relative z-10">
-                Преобразование криптовалют в реальном времени с актуальными курсами
+                Преобразование криптовалют в реальном времени с актуальными
+                курсами
               </p>
               <div className="mt-6 pt-4 border-t border-cyan-500/30 relative z-10">
                 <p className="font-mono text-cyan-300/70 text-xs">
@@ -82,14 +91,51 @@ export default function HomePage() {
 
               {/* ИКОНКА */}
               <div className="text-6xl mb-4 text-green-400 relative z-10">
-                <svg width="64" height="64" viewBox="0 0 64 64" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <rect x="10" y="10" width="44" height="44" fill="none" stroke="currentColor" strokeWidth="2" rx="4"/>
-                  <line x1="16" y1="24" x2="48" y2="24" stroke="currentColor" strokeWidth="2"/>
-                  <line x1="16" y1="36" x2="48" y2="36" x2="48" y2="48" stroke="currentColor" strokeWidth="2"/>
-                  <circle cx="28" cy="28" r="3" fill="currentColor"/>
-                  <circle cx="40" cy="28" r="3" fill="currentColor"/>
-                  <circle cx="28" cy="40" r="3" fill="currentColor"/>
-                  <circle cx="40" cy="40" r="3" fill="currentColor"/>
+                <svg
+                  width="64"
+                  height="64"
+                  viewBox="0 0 64 64"
+                  fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    x="10"
+                    y="10"
+                    width="44"
+                    height="44"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    rx="4"
+                  />
+                  <line
+                    x1="16"
+                    y1="24"
+                    x2="48"
+                    y2="24"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  />
+                  <line
+                    x1="16"
+                    y1="36"
+                    x2="48"
+                    y2="36"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  />
+                  <line
+                    x1="16"
+                    y1="48"
+                    x2="48"
+                    y2="48"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  />
+                  <circle cx="28" cy="28" r="3" fill="currentColor" />
+                  <circle cx="40" cy="28" r="3" fill="currentColor" />
+                  <circle cx="28" cy="40" r="3" fill="currentColor" />
+                  <circle cx="40" cy="40" r="3" fill="currentColor" />
                 </svg>
               </div>
 
@@ -97,7 +143,8 @@ export default function HomePage() {
                 🧮 КАЛЬКУЛЯТОР
               </h2>
               <p className="font-mono text-green-400 text-sm leading-relaxed relative z-10">
-                Инженерный калькулятор для точных расчётов и математических операций
+                Инженерный калькулятор для точных расчётов и математических
+                операций
               </p>
               <div className="mt-6 pt-4 border-t border-green-500/30 relative z-10">
                 <p className="font-mono text-green-300/70 text-xs">
